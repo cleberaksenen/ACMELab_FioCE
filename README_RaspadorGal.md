@@ -3,4 +3,5 @@ Esse script foi criado pela equipe de Bioinformatica da Fiocruz CE para a raspag
 
 ## Bibliotecas
  * selenium
+ * unidecode
 
