@@ -6,10 +6,10 @@
 
 #!pip install selenium
 
-A = str(input("Digite 1 para Gal Hemoce ou 2 para Gal Fiocruz: "))
-if A == "1":
+diretorio = str(input("Digite 1 para Gal Hemoce ou 2 para Gal Fiocruz: "))
+if diretorio == "1":
 	Ref = "https://gal.saude.ce.gov.br/"
-if A == "2":
+if diretorio == "2":
 	Ref = "https://gal.fiocruz.sus.gov.br/"
 	
 from datetime import datetime
@@ -336,7 +336,7 @@ class Navegador:
                 
 		logging.info('Fim da raspagem de dados...')
 		logging.info('Os dados foram salvos no arquivo dados.csv')
-		logging.info('Agradecr srs.: L.D, C.A, S.A, P.J')
+		logging.info('Agradecr srs.: Lucas Delerino, Cleber Aksenen, Suzana Almeida, Pedro Jeronimo')
 		self.navegador.quit()
 
 if __name__ == '__main__':
